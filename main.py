@@ -1,4 +1,4 @@
-print("あなたの名前は？", end = "")
-name = input()
+print("数字を入れてみてください", end = "")
+num = int(input())
 
-print("こんにちは %s さん" %name)
+print(num + 3)
