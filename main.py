@@ -1,5 +1,4 @@
-name = "Tom"
-print("hello %s" %name) # %の埋め込む値で変化する
+print("あなたの名前は？", end = "")
+name = input()
 
-print("任意の数字を入れてください")
-count = input()
+print("こんにちは %s さん" %name)
