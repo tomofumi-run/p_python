@@ -19,3 +19,10 @@ print(items[0])
 
 list((1,3,5)) # listからtupleへ
 tuple([1,3,5]) # tupleからlistへ
+
+# スライス
+scores = [40,50,70,90,60]
+print(scores[1:4]) # 1番目から3番目まで
+print(scores[2:]) # 2番目から後続まで
+print(scores[:2]) # 2番目まで
+print(scores[-2:]) # 後ろから2つまで
