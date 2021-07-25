@@ -30,9 +30,3 @@ class AdminUser(User):
 
   def say_hi(self): #override
     print("[admin]hi {0}".format(self.name))
-
-
-bob = AdminUser("bob","頭突き")
-bob.say_hi()
-bob.greet()
-bob.technique()
